@@ -37,7 +37,7 @@ function AfterCareDetails() {
   };
   return (
     <div className="w-full" ref={pdfWrapper}>
-      <Document file="/test_pdf.pdf" onLoadSuccess={onDocumentLoad}>
+      <Document file="/skin-club-react/test_pdf.pdf" onLoadSuccess={onDocumentLoad}>
         {new Array(pdfPages).fill(null).map((v: any, index: number) => (
           <Page key={index} pageNumber={index + 1} width={initialWidth}></Page>
         ))}

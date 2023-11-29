@@ -59,7 +59,7 @@ export default function PageModal({ setModalPage, currentPageNum, setCurrentPage
 
             <div className="flex flex-col w-full mt-10 mb-5 lg:p-0 justify-items-center gap-y-8 gap-x-8">
                 <div className="w-full max-h-screen overflow-y-hidden" ref={pdfWrapper}>
-                    <Document file="/test_pdf.pdf" onLoadSuccess={onDocumentLoad}>
+                    <Document file="/skin-club-react/test_pdf.pdf" onLoadSuccess={onDocumentLoad}>
                         <Page renderAnnotationLayer={false} pageNumber={currentPageNum} width={initialWidth}></Page>
                     </Document>
                 </div>
