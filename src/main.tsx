@@ -125,7 +125,7 @@ const router = createBrowserRouter([
     path: "reset-password",
     element: <AuthLayout><ResetPassword/></AuthLayout>
   },
-]);
+],{basename:"/skin-club-react"});
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
