@@ -1,0 +1,5 @@
+.banner{
+    background-image: url('../../assets/overview/cardGradient.png'), url('../../assets/overview/card-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
