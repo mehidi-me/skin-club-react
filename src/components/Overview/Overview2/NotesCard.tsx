@@ -16,7 +16,7 @@ export default function NotesCard({ }: Props) {
       <p className="text-lg font-bold">Notes</p>
       <Separator className="my-4" />
       <div className="grid gap-4 lg:grid-cols-2">
-        <div className="flex flex-col gap-4 p-4 bg-gray-100/50 rounded-xl">
+        <div className="flex flex-col gap-4 p-4 bg-gray-100/50 rounded-xl justify-between">
           <p className="text-foreground/50">
             It is a long established fact that a reader will be distracted by
             the readable content. It is a long established fact that a reader.
@@ -54,6 +54,13 @@ export default function NotesCard({ }: Props) {
                   <p className="text-foreground/50">Dosing:</p>
                   <p>2.5 ml</p>
                 </div>
+              </div>
+              <div className="flex flex-col gap-2 p-4 bg-gray-100/50 rounded-xl">
+                <div className="flex items-center justify-between">
+                  <p className="font-medium">Other Notes:</p>
+                </div>
+                <Separator />
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed commodo eget velit non luctus. Duis at enim eu elit facilisis fermentum.</p>
               </div>
               <div className="flex flex-col gap-2 p-4 bg-gray-100/50 rounded-xl">
                 <div className="flex items-center justify-between">

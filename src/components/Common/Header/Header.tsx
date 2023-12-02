@@ -18,7 +18,7 @@ export default function Header({ openedMenu, setOpenedMenu }: Props) {
                 }
             </Button>
             <Link href="/">
-                <img src={logoImg} alt="Logo" width={136} height={24} />
+                <img src={logoImg} alt="Logo" width={220} />
             </Link>
             <div className='flex items-center gap-x-14'>
                 <p className='hidden text-sm lg:inline'>Sunday, 20 August</p>

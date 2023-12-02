@@ -72,7 +72,7 @@ export default function Login() {
             </Button>
 
             <p className="text-xs text-[#4C4D4F80] ">
-              Don’t have an account?
+              Don’t have an account?{" "}
               <Link
                 className="text-xs text-[#4C4D4F] underline"
                 href="/register"
